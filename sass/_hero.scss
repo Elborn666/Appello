@@ -1,0 +1,33 @@
+.hero {
+    background-image: url('../img/hero/hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+}
+.hero__body {
+    padding: 240px 0px 270px 0px;
+    color: $color-white;
+}
+.hero__title {
+    font-size: 42px;
+    line-height: 1.19;
+    font-weight: 400;
+}
+.hero__subtitle {
+    margin: 35px 0px;
+
+    font-size: 13px;
+    line-height: 2.72;
+}
+.hero__button {
+    padding: 15px 37px;
+
+    color: $color-white;
+    font-size: 15px;
+    line-height: 2;
+
+    cursor: pointer;
+}

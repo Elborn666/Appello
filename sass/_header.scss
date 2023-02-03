@@ -1,0 +1,41 @@
+.header__container {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.header__body {
+    display: flex;
+    align-items: center;
+    padding-top: 55px;
+}
+.header__icon {
+    width: 91px;
+    height: 30px;
+}
+.header__nav {
+    margin-left: auto;
+}
+.header__list {
+    display: flex;
+    column-gap: 50px;
+}
+.header__link {
+    font-family: 'Roboto';
+    font-size: 13px;
+    line-height: 1.87;
+    color: $color-white;
+}
+.header__button {
+    margin-left: 52px;
+    padding: 12px 15px;
+
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 1.87;
+    color: $color-white;
+
+    background-color: inherit;
+    border: 1px solid $color-white;
+    border-radius: 4px;
+    cursor: pointer;
+}
