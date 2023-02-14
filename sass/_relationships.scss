@@ -1,0 +1,31 @@
+.relationships__container {
+    padding-top: 80px;
+}
+.relationships__body {
+    text-align: center;
+}
+.relationships__title {
+    margin-bottom: 36px;
+
+    font-size: 41px;
+    line-height: 1.21;
+
+    color: $title-color;
+}
+.relationships__subtitle {
+    margin-bottom: 70px;
+
+    font-size: 13px;
+    line-height: 2.3;
+}
+.relationships__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    padding: 100px 90px;
+}
+.relationships__item {
+}
+.relationships__img {
+}

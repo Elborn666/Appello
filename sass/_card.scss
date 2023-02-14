@@ -1,0 +1,46 @@
+.card {
+    margin-top: -380px;
+}
+.card__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card__item {
+    max-width: 565px;
+}
+.card__thumb {
+    padding: 0px 45px 0px 30px;
+}
+.card__title {
+    margin-top: 45px;
+
+    font-size: 24px;
+    line-height: 1.58;
+    color: $title-color;
+}
+.card__subtitle {
+    margin-top: 25px;
+
+    font-size: 16px;
+    line-height: 1.87;
+}
+.card__buttom-box {
+    display: flex;
+    justify-content: center;
+}
+.card__button {
+    margin-top: 75px;
+
+    padding: 15px 49px;
+
+    font-size: 15px;
+    line-height: 2;
+
+    color: $color-white;
+    background-color: $blue-bottom;
+    border-radius: 4px;
+    border: inherit;
+
+}
