@@ -22,10 +22,15 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    column-gap: 100px;
+    row-gap: 100px;
 
     padding: 100px 90px;
 }
 .relationships__item {
-}
-.relationships__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 12.5%;
 }
