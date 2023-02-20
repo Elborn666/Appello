@@ -6,15 +6,25 @@
     text-align: center;
 }
 .kickstart__title {
+    margin-bottom: 35px;
+    
     font-size: 41px;
-    line-height: 50px;
+    line-height: 1.21;
     color: $title-color;
 }
-.kickstart__subtitle {
-}
 .kickstart__list {
-}
-.kickstart__item {
+    display: flex;
+    column-gap: 13px;
+    justify-content: center;
 }
 .kickstart__text {
+    padding: 16px 40px;
+    margin-top: 75px;
+
+    font-size: 15px;
+    line-height: 2;
+    color: $blue-bottom;
+
+    border: 2px solid #E8E8E8;
+    border-radius: 30px;
 }

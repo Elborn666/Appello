@@ -1,0 +1,83 @@
+.footer {
+    background-color: $bg-color
+}
+.footer__container {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.footer__body {
+    padding: 22px 0px 59px 0px;
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.footer__text {
+    font-size: 15px;
+    line-height: 2;
+    color: $color-white;
+}
+.footer__icon {
+    width: 122px;
+    height: 40px;
+}
+.footer__list {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 75px;
+
+    padding-top: 150px;
+    padding-bottom: 150px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.footer__list-item {
+    width: 361px;
+}
+.footer__item-title {
+    margin-bottom: 20px;
+
+    font-size: 20px;
+    line-height: 1.2;
+    color: $color-white;
+}
+.footer__item-text {
+    padding: 11px 0px;
+
+    font-size: 15px;
+    line-height: 1.86;
+    color: $color-white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.footer__link {
+    padding: 11px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.footer__item-link {
+    font-size: 15px;
+    line-height: 1.86;
+    color: $color-white;
+}
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 34px;
+}
+.footer__signature {
+    font-size: 15px;
+    line-height: 2;
+    color: $color-white;
+}
+.footer__list-social {
+    display: flex;
+    column-gap: 20px;
+}
+.footer__social {
+    font-size: 16px;
+    line-height: 1.87;
+    color: $color-white;
+}
+.footer__sitemap {
+    font-size: 16px;
+    line-height: 1.87;
+    color: $color-white;
+}
