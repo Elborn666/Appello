@@ -674,6 +674,12 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+.spoiler__box {
+  display: flex;
+  flex-direction: column;
 }
 
 .faq__text {
@@ -681,7 +687,21 @@ a {
   font-size: 19px;
   line-height: 1.26;
   color: #000000;
-  border-bottom: 1px solid #E8E8E8;
+}
+
+.faq__spoiler-text {
+  position: relative;
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: -1px;
+  width: 900px;
+  font-size: 19px;
+  line-height: 1.26;
+  color: #000000;
+}
+
+.spoiler-body {
+  display: none;
 }
 
 .faq__icon {
