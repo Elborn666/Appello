@@ -70,10 +70,33 @@ a {
 }
 
 .header__link {
+  position: relative;
   font-family: "Roboto";
   font-size: 13px;
   line-height: 1.87;
   color: #ffffff;
+}
+.header__link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px; /* Высота линии */
+  background-color: #ffffff; /* Цвет подчеркивания при исчезании линии*/
+  transition: width 0.5s; /* Время эффекта */
+}
+.header__link:hover::after {
+  content: "";
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 2px; /* Высота линии */
+  background-color: #ffffff; /* Цвет подчеркивания при появлении линии*/
+  transition: width 0.5s; /* Время эффекта */
 }
 
 .header__button {
